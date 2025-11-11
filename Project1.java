@@ -26,4 +26,9 @@ public static void main(String[] args) {
         p2.burstTime = 7;
         p2.remainingTime = 7;
 
+        readyqueue[queueSize++] = p1;
+        allProcess[totalProcess++] = p1;
+        readyqueue[queueSize++] = p2;
+        allProcess[totalProcess++] = p2;
+
 }
